@@ -36,11 +36,13 @@ public class  playYahtzee {
 	Scanner inputDevice=new Scanner(System.in);
 		
 	System.out.println();
+	System.out.println("------------------------------------");
 	System.out.println("\nPlayer1, do you want to roll? (1)");
 	System.out.println("\nPlayer2, do you want to roll? (2)");
 	System.out.println("\nDo you want to quit the game? (x)");
 	System.out.println("\nDo you want to cheat? (c)");
 	System.out.println("\nWhat do you want to do: ");
+	System.out.println("------------------------------------");
 			
 	next = inputDevice.next().charAt(0);
 	inputDevice.nextLine(); // need it right after input taking a char or int - or will occupy the next input
